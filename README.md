@@ -1,5 +1,5 @@
 # Number Generator
-A lightweight number generator script
+A lightweight number generator script.
 It writes the numbers from 1 to 10 in random order without repeating.
 
 # Getting Started
