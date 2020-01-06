@@ -10,7 +10,7 @@ It's an a repository for completed bash scripting task
 # Basic Usage
 #### via curl
 ```shell
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/a1r0/bash_scripting/master/number_generator.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/a1r0/bash_scripting/master/number_generator.sh)"
 ```
 
 #### or via wget
