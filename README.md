@@ -20,3 +20,11 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/a1r0/bash_scripting/mast
 ```shell
 bash -c "$(wget -O- https://raw.githubusercontent.com/a1r0/bash_scripting/master/number_generator.sh)"
 ```
+
+#### Manual ispection 
+It would be nice to inspect this script which you dont yet know. 
+You can dowload this script first , look through it , then execute.
+```shell
+curl -Lo number_generator.sh https://raw.githubusercontent.com/a1r0/bash_scripting/master/number_generator.sh
+bash number_generator.sh
+```
