@@ -7,7 +7,7 @@ Presequities
   2. Bash should be installed (v. 4.4.20 or more recent).
 It's an a repository for completed bash scripting task
 
-# Basic Installation
+# Basic Usage
 
 You can download this script using `git clone` or use with `curl` or `wget` utilities
 
