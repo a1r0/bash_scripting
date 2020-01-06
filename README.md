@@ -5,9 +5,12 @@ A lightweight number generator script
 Presequities
   1. A Unix-like operating system: macOS, Linux. On Windows WSL is preffered.
   2. Bash should be installed (v. 4.4.20 or more recent).
-  3. 
 It's an a repository for completed bash scripting task
-# Basic Usage
+
+# Basic Installation
+
+You can download this script using `git clone` or use with `curl` or `wget` utilities
+
 #### via curl
 ```shell
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/a1r0/bash_scripting/master/number_generator.sh)"
@@ -15,5 +18,5 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/a1r0/bash_scripting/mast
 
 #### or via wget
 ```shell
-sh -c "$(wget -O- https://raw.githubusercontent.com/a1r0/bash_scripting/master/number_generator.sh)"
+bash -c "$(wget -O- https://raw.githubusercontent.com/a1r0/bash_scripting/master/number_generator.sh)"
 ```
