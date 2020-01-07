@@ -33,5 +33,5 @@ bash number_generator.sh
 ```
 
 # Known issues
-`Shuf` depends on GNU `coreutils` package which are not provided by Mac OS
+`Shuf` utility depends on GNU `coreutils` package which are not provided by Mac OS
 Install it isung HomeBrew package manager with the following command `brew install coreutils`
