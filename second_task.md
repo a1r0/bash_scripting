@@ -16,4 +16,4 @@
     3. Setup server services logging aggregation
 
   
-  The main challenges is add more focus on server's CPU performance because encryption is an incredibly CPU intensive task. I would setup a trigger which will create alert for monitoring system if CPU load will be greater than 75%. Also do not forget to monitor other server nodes which are placed behind ssl offloader.
+  The main challenges is add more focus on server's CPU performance because encryption is an incredibly CPU intensive task. I would setup a trigger which will create alert for monitoring system if CPU load will be greater than 75%. Also do not forget to monitor other server nodes which are placed behind ssl offloader. 
