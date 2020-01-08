@@ -5,7 +5,7 @@ This script is delevoped for the first task solution
 
 # Getting Started
 Presequities
-  1. A Unix-like operating system: macOS, Linux. On Windows WSL is preffered.
+  1. A Unix-like operating system: macOS(may require GNU `coreutils` package), Linux. On Windows WSL is preffered.
   2. Bash should be installed (v. 4.4.20 or more recent).
   3. Shuf should be installed (version 3 or later). 
 
