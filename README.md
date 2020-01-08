@@ -1,7 +1,7 @@
 # Number Generator
 A lightweight number generator script.
 It writes the numbers from 1 to 10 in random order without repeating.
-The first task solution
+This script is delevoped for the first task solution
 
 # Getting Started
 Presequities
