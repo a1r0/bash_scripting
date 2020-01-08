@@ -1,14 +1,13 @@
 # Number Generator
 A lightweight number generator script.
 It writes the numbers from 1 to 10 in random order without repeating.
+The first task solution
 
 # Getting Started
 Presequities
   1. A Unix-like operating system: macOS, Linux. On Windows WSL is preffered.
   2. Bash should be installed (v. 4.4.20 or more recent).
   3. Shuf should be installed (version 3 or later). 
-
-It's an a repository for completed bash scripting task
 
 # Basic Usage
 
