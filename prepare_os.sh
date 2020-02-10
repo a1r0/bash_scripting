@@ -4,8 +4,9 @@
 
 # TO DO ---- Implemet OS package detection
 
-if command -v apt-get &> /dev/null; then
+if command -v apt-get &>/dev/null; then
   echo apt
-elif command -v yum &> /dev/null; then
-  echo OS CENTOS 
+fi
+if command -v yum &>/dev/null; then
+  echo OS CENTOS
 fi
