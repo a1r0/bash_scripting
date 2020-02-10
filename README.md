@@ -1,12 +1,16 @@
 # Number Generator
-A lightweight number generator script.
-It writes the numbers from 1 to 10 in random order without repeating.
+An automated script which customize an Linux Distro with following packages.
+All of these will be marked as Done/In progress/Planned states , depends of my Shell script exp.
+
+  1. Zabbix
+  2. Nginx
+  3. Arc-theme if using GUI
+  4. OH my ZSH shell package
 
 # Getting Started
 Presequities
-  1. A Unix-like operating system: macOS, Linux. On Windows WSL is preffered.
-  2. Bash should be installed (v. 4.4.20 or more recent).
-  3. Shuf should be installed (version 3 or later). 
+  1. A Unix-like operating system: Linux. On Windows WSL is preffered.
+  2. Bash should be installed (v. 4.4.20 or more recent). 
 
 It's an a repository for completed bash scripting task
 
@@ -16,22 +20,21 @@ You can download this script using `git clone` or use with `curl` or `wget` util
 
 #### via curl
 ```shell
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/a1r0/bash_scripting/master/number_generator.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/a1r0/bash_scripting/master/prepare_os.sh)"
 ```
 
 #### or via wget
 ```shell
-bash -c "$(wget -O- https://raw.githubusercontent.com/a1r0/bash_scripting/master/number_generator.sh)"
+bash -c "$(wget -O- https://raw.githubusercontent.com/a1r0/bash_scripting/master/prepare_os.sh)"
 ```
 
 #### Manual ispection 
 It would be nice to inspect this script which you dont yet know. 
 You can dowload this script first , look through it , then execute.
 ```shell
-curl -Lo number_generator.sh https://raw.githubusercontent.com/a1r0/bash_scripting/master/number_generator.sh
+curl -Lo number_generator.sh https://raw.githubusercontent.com/a1r0/bash_scripting/master/prepare_os.sh
 bash number_generator.sh
 ```
 
 # Known issues
-`Shuf` utility depends on GNU `coreutils` package which are not provided by Mac OS
-Install it isung HomeBrew package manager with the following command `brew install coreutils`
+Possibly script cannot be executed so I would be better to give some execution permissions for it :) use an `chmod 600 prepare_os.sh` snippet
