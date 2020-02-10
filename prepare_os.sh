@@ -6,6 +6,6 @@
 
 if command -v apt-get &> /dev/null; then
   echo apt
-else if command -v yum &> /dev/null; then
+elif command -v yum &> /dev/null; then
   echo OS CENTOS 
 fi
