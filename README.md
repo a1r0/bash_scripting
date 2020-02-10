@@ -12,8 +12,6 @@ Presequities
   1. A Unix-like operating system: Linux. On Windows WSL is preffered.
   2. Bash should be installed (v. 4.4.20 or more recent). 
 
-It's an a repository for completed bash scripting task
-
 # Basic Usage
 
 You can download this script using `git clone` or use with `curl` or `wget` utilities
