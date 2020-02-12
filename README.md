@@ -31,7 +31,7 @@ It would be nice to inspect this script which you dont yet know.
 You can dowload this script first , look through it , then execute.
 ```shell
 curl -Lo number_generator.sh https://raw.githubusercontent.com/a1r0/bash_scripting/master/prepare_os.sh
-bash number_generator.sh
+bash prepare_os.sh
 ```
 
 # Known issues
